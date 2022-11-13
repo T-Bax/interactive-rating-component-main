@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" type="text/css" href="./styles/css/style.css">
+</head>
+<div class="container-main " id="main">
+  <header>
+    <div class="container-circular">
+      <img src="./images/icon-star.svg">
+    </div>
+    
+  </header>
+  <!-- Rating state start -->
+
+  <h1>How did we do?</h1>
+
+  <p class="content">Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!
+  </p>
+
+ 
+  <div class="container-rating-btns">
+    <div class="container-circular rating-btn">1</div>
+    <div class="container-circular rating-btn">2</div>
+    <div class="container-circular rating-btn">3</div>
+    <div class="container-circular rating-btn">4</div>
+    <div class="container-circular rating-btn">5</div>
+    
+  </div>
+  
+  <button type="submit" class="button-submit">Submit</button>
+  
+  
+
+
+
+ 
+
+  
+  
+  </div>
+  <div id="secondary" class="container-main hidden">
+     <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+    <div class="thankyou-container">
+      <img src="./images/illustration-thank-you.svg" class="img-thankyou">
+    </div>
+    
+    <div class="rating-display">
+      <p class="review-content">You selected <span id="score"></span> out of 5</p>
+    </div>
+  
+
+    <h1>
+      Thank you!
+    </h1>
+
+  <p >
+    We appreciate you taking the time to give a rating. If you ever need more support, 
+    don't hesitate to get in touch!
+  </p> 
+
+  <!-- Thank you state end -->
+  </div>
+  <script type="text/javascript" src="./scripts/script.js"></script>
+</html>
